@@ -45,7 +45,7 @@ export default function FavouriteProjects() {
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                AgroTICS
+                Ami
               </h1>
               <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
                 <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80 text-xl">

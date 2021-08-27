@@ -89,7 +89,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1voHEDCa8R_YPbcAAf6acDOndg-iMvy7G/view?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/davidcodes1/",
     linkedin: "https://www.linkedin.com/in/david-pardo-996999153/",

@@ -9,34 +9,34 @@ const userData = {
   projects: [
     {
       title: "AgroTICS",
-      link: "https://tailwindmasterkit.com",
       imgUrl: "/Agrotics.svg",
+      technologies: ['NodeJs , MongoDB', 'ReactJs', 'React Native'],
     },
     {
       title: "LiiDApp",
-      link: "https://placeholdertech.in",
       imgUrl: "/AppLiid.png",
+      technologies: ['React Native', 'Firebase'],
     },
     {
       title: "Artem369",
-      link: "https://manuarora.in",
       imgUrl: "/Artem.png",
+      technologies: ['React Native'],
     },
 
     {
       title: "Ami",
-      link: "https://algochurn.com",
       imgUrl: "/Ami.svg",
+      technologies: ['Angular', 'React Native', 'Firebase'],
     },
     {
       title: "Trading Platform",
-      link: "https://covidrescue.co.in",
       imgUrl: "/Trading.png",
+      technologies: ['Angular, Bootstrap', 'Highcharts', 'Websockets'],
     },
     {
       title: "CRM",
-      link: "https://play.placeholdertech.in",
       imgUrl: "/Crm.png",
+      technologies: ['Angular', 'Bootstrap', 'Websockets'],
     },
   ],
   about: {

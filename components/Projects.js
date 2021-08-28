@@ -18,6 +18,7 @@ export default function Projects() {
               link={proj.link}
               imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
+              technologies={proj.technologies}
             />
           ))}
         </div>
@@ -26,9 +27,9 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number, technologies = [] }) => {
   return (
-    <a  className="w-full block shadow-2xl">
+    <a className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
@@ -40,6 +41,13 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
           {title}
         </h1>
+        <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
+          {technologies.map((tech, idx) => (
+            <h1 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+              {tech}
+            </h1>
+          ))}
+        </div>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>

@@ -35,9 +35,7 @@ export default function FavouriteProjects() {
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
-          <a
-            className="w-full block col-span-3 shadow-2xl"
-          >
+          <a className="w-full block col-span-3 shadow-2xl">
             <div className="relative overflow-hidden">
               <img
                 src="/Ami.svg"
@@ -48,25 +46,26 @@ export default function FavouriteProjects() {
                 Ami
               </h1>
               <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
-                <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80 text-xl">
-                  Frontend: Angular 8, Bootstrap
-                </h1>
-                <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80 text-xl">
-                  Mobile: React Native
-                </h1>
-                <h1 className="bg-gray-500 rounded-md px-2 my-1  py-1 bg-opacity-80 text-xl">
-                  Backend: Firebase
-                </h1>
+                <h5 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  Angular 8
+                </h5>
+                <h5 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  Bootstrap
+                </h5>
+                <h5 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  React Native
+                </h5>
+                <h5 className="bg-gray-500 rounded-full px-2 my-1  py-1 bg-opacity-80">
+                  Firebase
+                </h5>
               </div>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold">
                 01
               </h1>
             </div>
           </a>
           {/* Single card */}
-          <a
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
-          >
+          <a className="w-full block col-span-3  sm:col-span-2 shadow-2xl">
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
@@ -78,14 +77,14 @@ export default function FavouriteProjects() {
                 AgroTICS
               </h1>
               <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
-                <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80">
-                  Frontend: ReactJS, Typescript
+                <h1 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  ReactJS, Typescript
                 </h1>
-                <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80">
-                  Mobile: React Native
+                <h1 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  React Native
                 </h1>
-                <h1 className="bg-gray-500 rounded-md px-2 my-1  py-1 bg-opacity-80">
-                  Backend: NodeJs, MongoDB
+                <h1 className="bg-gray-500 rounded-full px-2 my-1  py-1 bg-opacity-80">
+                  NodeJs, MongoDB
                 </h1>
               </div>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
@@ -94,9 +93,7 @@ export default function FavouriteProjects() {
             </div>
           </a>
           {/* Single card */}
-          <a
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
+          <a className="w-full block col-span-3 sm:col-span-1  object-cover">
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
@@ -108,11 +105,11 @@ export default function FavouriteProjects() {
                 AppLiid
               </h1>
               <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
-                <h1 className="bg-gray-500 rounded-md px-2 my-1 py-1 bg-opacity-80">
-                  Mobile: React Native
+                <h1 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+                  React Native
                 </h1>
-                <h1 className="bg-gray-500 rounded-md px-2 my-1  py-1 bg-opacity-80">
-                  Backend: Firebase
+                <h1 className="bg-gray-500 rounded-full px-2 my-1  py-1 bg-opacity-80">
+                  Firebase
                 </h1>
               </div>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">

@@ -32,7 +32,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:site_name" content="David Pardo" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
+        <meta property="og:image" content='https://raw.githubusercontent.com/davidPardoC/davidpardo/main/public/preview.jpg' />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}

@@ -14,6 +14,7 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key={idx}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
@@ -43,7 +44,10 @@ const ProjectCard = ({ title, link, imgUrl, number, technologies = [] }) => {
         </h1>
         <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
           {technologies.map((tech, idx) => (
-            <h1 className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
+            <h1
+              key={idx}
+              className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80"
+            >
               {tech}
             </h1>
           ))}

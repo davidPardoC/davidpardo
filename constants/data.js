@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "davidPardoC",
   name: "David Pardo",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "/avatar.png",
   email: "pardodavid10@gmail.com",
   phone: "+593 995710255",
   address: "Loja, Ecuador",

@@ -146,6 +146,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
+              autoComplete='new-name'
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
               {...name}
@@ -155,6 +156,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
+              autoComplete='new-email'
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
               {...email}
@@ -168,6 +170,7 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
+              autoComplete='new-message'
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
               {...message}

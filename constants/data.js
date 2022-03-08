@@ -10,33 +10,33 @@ const userData = {
     {
       title: "AgroTICS",
       imgUrl: "/Agrotics.svg",
-      technologies: ['NodeJs , MongoDB', 'ReactJs', 'React Native'],
+      technologies: ["NodeJs , MongoDB", "ReactJs", "React Native"],
     },
     {
       title: "LiiDApp",
       imgUrl: "/AppLiid.png",
-      technologies: ['React Native', 'Firebase'],
+      technologies: ["React Native", "Firebase"],
     },
     {
       title: "Artem369",
       imgUrl: "/Artem.png",
-      technologies: ['React Native'],
+      technologies: ["React Native"],
     },
 
     {
       title: "Ami",
       imgUrl: "/Ami.svg",
-      technologies: ['Angular', 'React Native', 'Firebase'],
+      technologies: ["Angular", "React Native", "Firebase"],
     },
     {
       title: "Trading Platform",
       imgUrl: "/Trading.png",
-      technologies: ['Angular, Bootstrap', 'Highcharts', 'Websockets'],
+      technologies: ["Angular, Bootstrap", "Highcharts", "Websockets"],
     },
     {
       title: "CRM",
       imgUrl: "/Crm.png",
-      technologies: ['Angular', 'Bootstrap', 'Websockets'],
+      technologies: ["Angular", "Bootstrap", "Websockets"],
     },
   ],
   about: {
@@ -53,9 +53,16 @@ const userData = {
   },
   experience: [
     {
+      title: "Software Developer",
+      company: "Rappi",
+      year: "2021 - Today",
+      companyLink: "https://rappi.com.co/",
+      desc: "React.js , Next.js, Service Workers, Testing Library, Jest, Story Book, SSR, SSG, Scrum, Jira.",
+    },
+    {
       title: "Lead Frontend Developer",
       company: "Exmerdev",
-      year: "2021",
+      year: "2020 - 2021",
       companyLink: "https://exmerdev.com/",
       desc: "Angular , Websockets, Highcharts, Ngx-bootstrap, Material-ui, Jira.",
     },

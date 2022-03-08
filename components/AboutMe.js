@@ -155,21 +155,22 @@ export default function AboutMe() {
                 src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
-               <img
+              <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
+              <img src="/MongoLogo.png" className="h-20 w-20 mx-4 my-4" />
               <img
-                src="/MongoLogo.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-               <img
                 src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9lZDI1OTU4NzA0MWM1YWI3OWYyNGNiMWUzNDFmMGEzNz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.WGSTeMkmlKyhMVynI4jhqaJ3JjH7-1FJs9Imqs5FY0U"
                 className="h-20 w-20 mx-4 my-4"
               />
-               <img
+              <img
                 src="https://agenciapressnoticias.com/wp-content/uploads/2021/05/AWS-logo-2.jpg"
                 className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://docs.microsoft.com/es-es/windows/images/nextjs-logo.png"
+                className="h-20 w-20 mx-4 my-4 bg-gray-50"
               />
             </div>
           </div>

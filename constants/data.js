@@ -43,12 +43,12 @@ const userData = {
     title:
       "I'm a software developer that loves building products and always keep learning",
     description: [
-      `I have been developing applications professionally for almost 3 years.`,
+      `I have been developing applications professionally for almost 4 years.`,
       `I started in web development learning HTML and CSS, and I was always afraid to implement Javascript on my sites, until I took the risk of entering as a web development intern at my university, that's when it all started.`,
       `Now I am proud to have learned and used various technologies for the development of my applications, my main stack is heavily based on Javascript / Typescript for example ReactJs,
       Reat Native, NodeJS, Express, MongoDb, Angular ,  NestJs and some AWS with EC2, S3 and CodePipeline`,
     ],
-    currentProject: "Handy (my secret project)",
+    currentProject: "Go",
     currentProjectUrl: "",
   },
   experience: [

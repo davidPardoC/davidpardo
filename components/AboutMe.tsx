@@ -1,4 +1,4 @@
-import userData from "@constants/data";
+import userData from "../constants/data";
 
 export default function AboutMe() {
   return (
@@ -14,7 +14,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently learning 
+            {userData.about.title}. Currently learning
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import userData from "@constants/data";
+import { useState } from "react";
+import userData from "../constants/data";
 import { init, send } from "emailjs-com";
 import Swal from "sweetalert2";
 init("user_IznobNW5ajLaOxT73Mnwr");
@@ -146,7 +146,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              autoComplete='new-name'
+              autoComplete="new-name"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
               {...name}
@@ -156,7 +156,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              autoComplete='new-email'
+              autoComplete="new-email"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
               {...email}
@@ -168,9 +168,9 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              rows="4"
+              rows={4}
               type="text"
-              autoComplete='new-message'
+              autoComplete="new-message"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
               {...message}

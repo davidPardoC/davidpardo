@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
@@ -13,6 +12,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     image: "/preview.jpg",
     type: "website",
     ...customMeta,
+    date: "",
   };
   return (
     <div>
@@ -32,7 +32,10 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:site_name" content="David Pardo" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content='https://raw.githubusercontent.com/davidPardoC/davidpardo/main/public/preview.jpg' />
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/davidPardoC/davidpardo/main/public/preview.jpg"
+        />
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}

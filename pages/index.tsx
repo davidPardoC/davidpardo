@@ -1,20 +1,18 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
-import getLatestRepos from "@lib/getLatestRepos";
-import userData from "@constants/data";
+import getLatestRepos from "../lib/getLatestRepos";
+import userData from "../constants/data";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Home({ repositories }) {
   const { theme, setTheme } = useTheme();
   /* const [repositories, setRepos] = useState() */
-  useEffect(()=>{
-    setTheme("dark")
-  },[])
+  useEffect(() => {
+    setTheme("dark");
+  }, []);
   return (
     <ContainerBlock
       title="David Pardo - Developer."

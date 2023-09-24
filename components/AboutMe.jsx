@@ -1,4 +1,4 @@
-import userData from "@constants/data";
+import userData from '@constants/data';
 
 export default function AboutMe() {
   return (
@@ -12,9 +12,11 @@ export default function AboutMe() {
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
-            style={{ lineHeight: "3rem" }}
+            style={{
+              lineHeight: '3rem',
+            }}
           >
-            {userData.about.title}. Currently learning 
+            {userData.about.title}. Currently learning
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -29,17 +31,15 @@ export default function AboutMe() {
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact
-              </h1>
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">Contact</h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                For any sort help / enquiry, shoot a{' '}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
-                </a>{" "}
+                </a>{' '}
                 and I'll get back.
               </p>
             </div>
@@ -48,15 +48,14 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
+                I'm looking for a job currently, If you see me as a good fit, check my{' '}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   CV
-                </a>{" "}
+                </a>{' '}
                 and I'd love to work with for you.
               </p>
             </div>
@@ -106,10 +105,7 @@ export default function AboutMe() {
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
             {userData.about.description?.map((desc, idx) => (
-              <p
-                key={idx}
-                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
-              >
+              <p key={idx} className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">
                 {desc}
               </p>
             ))}

@@ -1,5 +1,5 @@
-import React from "react";
-import userData from "@constants/data";
+import React from 'react';
+import userData from '@constants/data';
 
 export default function Projects() {
   return (
@@ -44,16 +44,13 @@ const ProjectCard = ({ title, link, imgUrl, number, technologies = [] }) => {
         </h1>
         <div className="z-10  absolute left-10  top-20 flex flex-col items-start justify-center ">
           {technologies.map((tech, idx) => (
-            <h1
-              key={idx}
-              className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80"
-            >
+            <h1 key={idx} className="bg-gray-500 rounded-full px-2 my-1 py-1 bg-opacity-80">
               {tech}
             </h1>
           ))}
         </div>
         <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-          {number.length === 1 ? "0" + number : number}
+          {number.length === 1 ? '0' + number : number}
         </h1>
       </div>
     </a>

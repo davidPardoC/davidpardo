@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from 'react';
+import Link from 'next/link';
 
 export default function FavouriteProjects() {
-  const [showTechnologies1, setShowTechnologies1] = useState(false);
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
@@ -59,9 +58,7 @@ export default function FavouriteProjects() {
                   Firebase
                 </h5>
               </div>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold">
-                01
-              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold">01</h1>
             </div>
           </a>
           {/* Single card */}
@@ -87,9 +84,7 @@ export default function FavouriteProjects() {
                   NodeJs, MongoDB
                 </h1>
               </div>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">02</h1>
             </div>
           </a>
           {/* Single card */}
@@ -112,9 +107,7 @@ export default function FavouriteProjects() {
                   Firebase
                 </h1>
               </div>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
-              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">03</h1>
             </div>
           </a>
         </div>

@@ -6,7 +6,7 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          About Me.
+          About Me
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
@@ -72,7 +72,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></span>
                     GitHub
                   </p>
                 </a>
@@ -84,7 +84,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></span>
                     LinkedIn
                   </p>
                 </a>
@@ -96,7 +96,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    <span className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></span>
                     Instagram
                   </p>
                 </a>
@@ -114,65 +114,64 @@ export default function AboutMe() {
             <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="flex flex-row flex-wrap mt-8 gap-4">
               <Image
+                width={60} height={60}
                 alt="Javascript logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
+                width={60} height={60}
                 alt="typescript logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
+                width={60} height={60}
                 alt="html logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
+                width={60} height={60}
                 alt="css logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
-                alt="angular logo"
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <Image
-                alt="git logo"
-                src="http://www.uiolibre.com/wp-content/uploads/2014/06/git-versiones.jpg"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <Image
+                width={60} height={60}
                 alt="react logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
+                width={60} height={60}
                 alt="firebase logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
+                width={60} height={60}
                 alt="postgresql logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
-                alt="bootstrap logo"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+                width={60} height={60}
+                alt="mongodb logo"
+                src="/MongoLogo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <Image alt="mongodb logo" src="/MongoLogo.png" className="h-20 w-20 mx-4 my-4" />
               <Image
+                width={60} height={60}
                 alt="Aws logo"
                 src="https://agenciapressnoticias.com/wp-content/uploads/2021/05/AWS-logo-2.jpg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <Image
-                alt='next logo'
+                width={60} height={60}
+                alt="next logo"
                 src="https://docs.microsoft.com/es-es/windows/images/nextjs-logo.png"
                 className="h-20 w-20 mx-4 my-4 bg-gray-50"
               />

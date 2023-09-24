@@ -60,7 +60,7 @@ const GithubRepoCard = ({ latestRepo }) => {
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
       >
         <p>View Repository </p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">&rarr;</div>
+        <span className="transform  group-hover:translate-x-2 transition duration-300">&rarr;</span>
       </a>
     </div>
   );

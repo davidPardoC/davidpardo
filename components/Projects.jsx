@@ -37,6 +37,8 @@ const ProjectCard = ({ title, link, imgUrl, number, technologies = [] }) => {
           <Image
             src={imgUrl}
             alt="portfolio"
+            width={1280}
+            height={720}
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>

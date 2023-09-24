@@ -52,9 +52,9 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
-              <h1 className="text-gray-50 font-semibold text-2xl">Get in touch, let's talk.</h1>
+              <h1 className="text-gray-50 font-semibold text-2xl">Get in touch, let&apos;s talk.</h1>
               <p className="font-light text-base text-gray-200 mt-2">
-                Fill in the details and I'll get back to you as soon as I can.
+                Fill in the details and I&apos;ll get back to you as soon as I can.
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">

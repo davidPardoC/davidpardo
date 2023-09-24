@@ -1,4 +1,5 @@
 import userData from '@constants/data';
+import Image from 'next/image';
 
 export default function AboutMe() {
   return (
@@ -40,7 +41,7 @@ export default function AboutMe() {
                 >
                   mail
                 </a>{' '}
-                and I'll get back.
+                and I&apos;ll get back.
               </p>
             </div>
             <div className="mt-8">
@@ -48,7 +49,7 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit, check my{' '}
+                I&apos;m looking for a job currently, If you see me as a good fit, check my{' '}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
@@ -56,7 +57,7 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{' '}
-                and I'd love to work with for you.
+                and I&apos;d love to work with for you.
               </p>
             </div>
             {/* Social Links */}
@@ -114,56 +115,64 @@ export default function AboutMe() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-              <img
+              <Image
+                alt="Javascript logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="typescript logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="html logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="css logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="angular logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="git logo"
                 src="http://www.uiolibre.com/wp-content/uploads/2014/06/git-versiones.jpg"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="react logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="firebase logo"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="postgresql logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="bootstrap logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img src="/MongoLogo.png" className="h-20 w-20 mx-4 my-4" />
-              <img
-                src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9lZDI1OTU4NzA0MWM1YWI3OWYyNGNiMWUzNDFmMGEzNz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.WGSTeMkmlKyhMVynI4jhqaJ3JjH7-1FJs9Imqs5FY0U"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
+              <Image alt="mongodb logo" src="/MongoLogo.png" className="h-20 w-20 mx-4 my-4" />
+              <Image
+                alt="Aws logo"
                 src="https://agenciapressnoticias.com/wp-content/uploads/2021/05/AWS-logo-2.jpg"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt='next logo'
                 src="https://docs.microsoft.com/es-es/windows/images/nextjs-logo.png"
                 className="h-20 w-20 mx-4 my-4 bg-gray-50"
               />

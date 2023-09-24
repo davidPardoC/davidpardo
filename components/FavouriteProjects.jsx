@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function FavouriteProjects() {
   return (
@@ -36,8 +37,10 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a className="w-full block col-span-3 shadow-2xl">
             <div className="relative overflow-hidden">
-              <img
+              <Image
                 src="/Ami.svg"
+                width={1280}
+                height={720}
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -65,7 +68,9 @@ export default function FavouriteProjects() {
           <a className="w-full block col-span-3  sm:col-span-2 shadow-2xl">
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
+              <Image
+                width={1280}
+                height={720}
                 src="/Agrotics.svg"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
@@ -91,7 +96,8 @@ export default function FavouriteProjects() {
           <a className="w-full block col-span-3 sm:col-span-1  object-cover">
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
+              <Image
+                layout="fill"
                 src="/AppLiid.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"

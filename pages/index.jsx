@@ -12,6 +12,7 @@ export default function Home({ repositories }) {
 
   useEffect(() => {
     setTheme('dark');
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <ContainerBlock title="David Pardo - Developer." description="Welcome to my portafolio.">
